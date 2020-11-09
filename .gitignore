@@ -1,0 +1,12 @@
+.ipynb_checkpoints
+__pychache__
+data
+meeting_agendas
+output_files
+troubleshooting
+
+photometry_intro/.ipynb_checkpoints
+photometry_intro/__pychache__
+photometry_intro/PAL5_data
+
+*.fits
