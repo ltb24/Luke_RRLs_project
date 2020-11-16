@@ -4,6 +4,7 @@ data
 meeting_agendas
 output_files
 troubleshooting
+papers
 
 photometry_intro/.ipynb_checkpoints
 photometry_intro/__pycache__
