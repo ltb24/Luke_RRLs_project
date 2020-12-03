@@ -9,6 +9,7 @@ papers
 photometry_intro/.ipynb_checkpoints
 photometry_intro/__pycache__
 photometry_intro/PAL5_data
+photometry_intro/PAL13_data
 photometry_intro/CCVS_data
 
 *.fits
