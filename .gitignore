@@ -8,6 +8,8 @@ papers
 
 photometry_intro/.ipynb_checkpoints
 photometry_intro/__pycache__
+photometry_intro/gloess_master
+photometry_intro/gaia_data
 photometry_intro/CCVS_data
 photometry_intro/PAL5_data
 photometry_intro/PAL13_data
