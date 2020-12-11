@@ -45,8 +45,8 @@ def GLOESSpy(mag1, unc1, mag2, unc2, lctime, period, starid, multi_channel):
     eir1 = np.array(unc1)
     eir2 = np.array(unc2)
 
-    xir1 = 0.10
-    xir2 = 0.10
+    xir1 = 0.20
+    xir2 = 0.20
 
     mjd = np.array(lctime)
 
