@@ -168,7 +168,7 @@ def GLOESSpy(mag1, unc1, mag2, unc2, lctime, period, starid, multi_channel):
     #plt.setp(ax1.get_xticklabels(),visible=False)
 
     if (multi_channel == 1 or multi_channel == True):
-        if ir11 == ir21:
+        if nir1 == nir2:
             ### Define the colour curve
             colour_curve = ir11 - ir21
             ## Define the colour points
