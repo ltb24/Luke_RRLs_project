@@ -96,7 +96,7 @@ def GLOESSpy(mag1, unc1, mag2, unc2, lctime, period, starid, multi_channel):
     ax3 = plt.subplot(gs[1, 2:4])
     ax4 = plt.subplot(gs[2, 2:4])
     ax1.axis([1, 3.5, (maxlim), (minlim)])
-    titlestring = str(starid) + ', P = ' + str(period) + ' days'
+    titlestring = '{0}, P = {1:.4f} days'.format(starid, period)
     #print titlestring
     plt.suptitle(titlestring, fontsize = 20)
 
