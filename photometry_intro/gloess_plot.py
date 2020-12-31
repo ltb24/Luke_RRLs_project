@@ -132,6 +132,7 @@ def GLOESSpy(mag1, unc1, mag2, unc2, lctime, period, starid, multi_channel):
     else:
         aveir1 = float('NaN')
         ampir1 = float('NaN')
+        sdevir1 = float('NaN')
 
     if nir2 > 0:
         ir21, ir2x, yir2, yeir2, xphaseir2 = gf.fit_one_band(ir2, eir2, phase, nir2, xir2)
@@ -160,6 +161,7 @@ def GLOESSpy(mag1, unc1, mag2, unc2, lctime, period, starid, multi_channel):
     else:
         aveir2 = float('NaN')
         ampir2 = float('NaN')
+        sdevir2 = float('NaN')
         
     handles, labels = ax1.get_legend_handles_labels() 
     #ax1.legend(handles[::-1],labels[::-1],bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0., numpoints=1)
@@ -216,4 +218,4 @@ def GLOESSpy(mag1, unc1, mag2, unc2, lctime, period, starid, multi_channel):
     plt.show()
     #fitout.close()
 
-    return aveir1, ampir1, aveir2, ampir2
+    return aveir1, ampir1, sdevir1, aveir2, ampir2, sdevir2
